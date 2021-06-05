@@ -14,6 +14,30 @@ footer{
     padding:10px;
 }
 
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#333;
+}
+
+nav li{
+    float:left;
+}
+
+nav li a {
+    display:block;
+    color:white;
+    text-align:center;
+    padding:8px 12px;
+    text-decoration:none;
+}
+
+nav li a:hover {
+    background-color:#111;
+}
+
 .cuidang{
     font-size:50px;
     text-align:center;
@@ -21,7 +45,7 @@ footer{
 }
 
 /* 头像 */
-.avater{
+.avatar{
     width:1200px;
 }
 
@@ -51,4 +75,18 @@ footer{
     display:block;
     margin:0 auto;
     heifgt:100px;
+}
+
+.float-right{
+    float:right;
+}
+
+.imdb{
+    font-size:12px;
+    font-weight:bold;
+    color:black;
+    text-docoration:none;
+    background:#F5C518;
+    border-radius:5px;
+    padding:3px 5px;
 }
