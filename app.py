@@ -71,6 +71,10 @@ def inject_user():
 def page_not_found(e):
     return render_template('404.html'),404
 
+@app.route('/0')
+def toaw4_0():
+    return render_template('toaw4_0.html')
+
 @app.route('/')
 def index():
     movies = Movie.query.all()
@@ -84,7 +88,3 @@ def initdb(drop):
         db.drop_all()
     db.create_all()
     click.echo('Initialized database.')
-
-@app.route('/find')
-def toaw4_0():
-    return 'Hello!'

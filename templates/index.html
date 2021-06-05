@@ -7,7 +7,7 @@
     {% for movie in movies %}
     <li>{{ movie.title }} - {{ movie.year }}
         <span class="float-right">
-            <a class="imdb" href="http://localhost:5000/find?q={{movie.title}}" target="_blank" title="Find this movie on IMDb">点击进入</a>
+            <a class="imdb" href="http://localhost:5000/{{movie.year}}" target="_blank" title="Find this movie on IMDb">点击进入</a>
         </span>
     </li>
     {% endfor %}
