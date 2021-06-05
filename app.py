@@ -19,7 +19,7 @@ def test_url_for():
     # 输出：/test?num=2
     return 'Test page'
 
-name = 'Grey Li'
+name = '催档'
 movies = [
     {'title':'My Neighbor Totoro','year':'1988'},
     {'title':'Dead Poets Society','year':'1989'},
